@@ -1,0 +1,22 @@
+a {
+    color: #00b3ee;
+}
+a:hover {
+    color: darkred;
+}
+li:first-child {
+    color: orange;
+}
+a:first-child {
+    color: mediumpurple;
+}
+
+li:nth-child(2) {
+    color: mediumpurple;
+}
+li:nth-child(even) {
+    background: greenyellow;
+}
+li:nth-child(odd) {
+    background: blueviolet;
+}
